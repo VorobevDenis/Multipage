@@ -7,6 +7,7 @@ from . import constants
 from .forms import BaseApplicationForm
 from .models import JobApplication
 
+
 def get_job_application_from_hash(session_hash):
     # Find and return an unexpired, not-yet-completed JobApplication
     # with a matching session_hash, or None if no such object exists.
